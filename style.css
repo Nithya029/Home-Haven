@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+#navbar {
+  position: sticky;
+  flex: grow;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 0.5rem 5rem;
+  box-shadow: 5px 5px 20px rgba(16, 45, 36, 0.5);
+  background: hsl(202, 11%, 38%);
+  display: flex;
+}
+.navbar .navbar-brand {
+  font-size: 25px;
+  font-weight: 800;
+  color: #f1f66dcb !important;
+}
+#navbarSupportedContent a {
+  color: #fbfff0;
+  border-bottom: 3px solid transparent;
+}
+#navbarSupportedContent a:hover {
+  border-bottom: 2px solid #ecf843;
+}
+#navbarSupportedContent button {
+  background: hsl(311, 92%, 5%);
+  color: #fbfff0;
+  width: 5rem;
+  border-radius: 15px;
+}
+#navbarSupportedContent button:hover {
+  border-bottom: 2px solid #ecf843;
+}
+
+Section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("smart_appliances.jpg");
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+}
+#home h1 {
+  font-size: 75px;
+  color: #cdfffecf;
+  letter-spacing: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 0px 1px 0px #ccc, 0px 2px 0px #ccc, 0px 3px 0px #ccc,
+    0px 7px 0px #ccc;
+}
+#home p {
+  font-size: 18px;
+  color: hsl(180, 82%, 71%);
+}
+#home .input-group {
+  width: 40%;
+  height: 45px;
+}
+.signin {
+  background: hsl(312, 77%, 42%) !important;
+  color: azure !important;
+  box-shadow: #ccc;
+}
+/**about us**/
+#about {
+  background: linear-gradient(
+    to right,
+    hwb(187 38% 5%/0.25),
+    hwb(164 24% 9% / 0.774),
+    #ef6b81e2
+  );
+}
+#about h1 {
+  font-weight: 800;
+  font-size: 50px;
+  color: rgba(4, 31, 120, 0.814);
+}
+#about p {
+  color: rgb(51, 48, 48);
+}
+/**products**/
+
+
+#products {
+  background: linear-gradient(to left, #7ae0e739, hsla(153, 12%, 64%, 0.388));
+}
+#products h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+#product img {
+  width: 200px;
+  height: 200px;
+}
+.card {
+  width: 250px;
+  height: 400px;
+  background: #7fbede49 !important;
+  border: none !important;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3), inset 14px 4px 10px white;
+  border-radius: 20px !important;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 60px;
+  transition: 0.2s;
+}
+.card:hover {
+  box-shadow: inset 6px 5px 20px rgba(51, 48, 48, 0.3),
+    inset -4px -4px 10px whitesmoke;
+  transition: 0.2s;
+}
+.box {
+  width: 80% !important;
+  margin: top 20px;
+  padding: 20px;
+  background: linear-gradient(to left, rgba(85, 169, 190, 0.652), #2fda8a63);
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+#contact {
+  background: linear-gradient(
+    to right,
+    rgb(246, 156, 171),
+    hsla(173, 89%, 56%, 0.475)
+  );
+}
+#contact input {
+  margin: 10px 0px;
+}
+#contact textarea {
+  margin: 10px 0px;
+}
+footer {
+  width: 100%;
+  height: 35px;
+  background: black;
+  margin-top: -30px;
+  text-align: center;
+  color: azure;
+  padding: 3px;
+}
